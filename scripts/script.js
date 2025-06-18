@@ -1,4 +1,4 @@
-// Function to toggle dark and light themes
+// Function to toggle dark and light themes.
 function toggleTheme() {
     const body = document.body;
     const themeButton = document.getElementById('theme-toggle');
@@ -13,3 +13,4 @@ function toggleTheme() {
         themeButton.value = '🌙'; // Set to moon icon for light mode
     }
 }
+
